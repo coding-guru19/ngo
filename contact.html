@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact • Hope for the Hopeless Foundation</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill"><i class="fa-solid fa-shield-heart"></i> Registered NPO</span>
+        <span class="sep">•</span>
+        <a href="governance.html">Governance</a>
+        <span class="sep">•</span>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="topbar__right">
+        <a href="mailto:info@hopefoundation.org"><i class="fa-solid fa-envelope"></i> info@hopefoundation.org</a>
+        <span class="sep">•</span>
+        <a href="tel:0792944401"><i class="fa-solid fa-phone"></i> 0792944401</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__mark"></span>
+        <span class="brand__text"><strong>kea Hope for the Hopeless</strong><small>Foundation</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav__toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__links" id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="help us.html">Get Involved</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a href="governance.html">Governance</a></li>
+          <li class="nav__cta">
+            <a class="btn btn--primary" href="get-involved.html#donate"><i class="fa-solid fa-hand-holding-heart"></i> Donate</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero hero--small">
+      <div class="container hero__inner reveal">
+        <div class="hero__copy">
+          <p class="kicker"><i class="fa-solid fa-envelope"></i> Contact</p>
+          <h1>Let’s talk.</h1>
+          <p class="lead">Partnerships, programmes, donations, volunteering — reach out and we’ll respond.</p>
+        </div>
+
+        <div class="hero__panel tilt" aria-hidden="true">
+          <div class="panel__badge"><i class="fa-solid fa-location-dot"></i><span>Pretoria, South Africa</span></div>
+          <div class="panel__grid">
+            <div class="mini"><p class="mini__label">Email</p><p class="mini__value">info@hopefoundation.org</p></div>
+            <div class="mini"><p class="mini__label">Phone</p><p class="mini__value">+27 12 345 6789</p></div>
+            <div class="mini"><p class="mini__label">Hours</p><p class="mini__value">Mon–Fri • 09:00–16:00</p></div>
+            <div class="mini"><p class="mini__label">Response</p><p class="mini__value">Within 24–48h</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Send a message</h2>
+          <p>A professional contact section that looks credible to funders and partners.</p>
+        </div>
+
+        <div class="contact reveal">
+          <div class="card">
+            <h3>Contact details</h3>
+            <p><i class="fa-solid fa-envelope"></i> info@hopefoundation.org</p>
+            <p><i class="fa-solid fa-phone"></i> 0792944401</p>
+            <p><i class="fa-solid fa-location-dot"></i> Pretoria, South Africa</p>
+
+            <div style="margin-top:12px;">
+              <a class="btn btn--ghost" href="mailto:info@hopefoundation.org"><i class="fa-solid fa-envelope"></i> Email us</a>
+              <a class="btn btn--ghost" href="tel:+27123456789"><i class="fa-solid fa-phone"></i> Call us</a>
+            </div>
+          </div>
+
+          <!-- For now action="#" is fine. Later you can POST to your backend -->
+         <form class="card form" action="/contact" method="post">
+
+  <div class="form__row">
+    <label for="full_name">Full name</label>
+    <input
+      type="text"
+      id="full_name"
+      name="full_name"
+      placeholder="Your name"
+      required
+    />
+  </div>
+
+  <div class="form__row">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="you@example.com"
+      required
+    />
+  </div>
+
+  <div class="form__row">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="How can we help?"
+      required
+    ></textarea>
+  </div>
+
+  <button class="btn btn--primary" type="submit">
+    <i class="fa-solid fa-paper-plane"></i> Send message
+  </button>
+
+</form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Hope for the Hopeless Foundation • Committed to accountability & transparency.</p>
+      <a class="to-top" href="#top"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <div class="sticky-cta">
+    <a class="btn btn--primary" href="help us.html"><i class="fa-solid fa-hand-holding-heart"></i> Donate</a>
+  </div>
+</body>
+</html>

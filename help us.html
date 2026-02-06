@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Involved • Hope for the Hopeless Foundation</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Ethereal Background -->
+  <div class="ethereal-background"></div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill"><i class="fa-solid fa-shield-heart"></i> Registered NPO</span>
+        <span class="sep">•</span>
+        <a href="governance.html">Governance</a>
+        <span class="sep">•</span>
+        <a href="impact.html">Impact</a>
+      </div>
+      <div class="topbar__right">
+        <a href="mailto:info@hopefoundation.org"><i class="fa-solid fa-envelope"></i> info@hopefoundation.org</a>
+        <span class="sep">•</span>
+        <a href="tel:0792944401"><i class="fa-solid fa-phone"></i>0792944401</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="Hope for the Hopeless Foundation home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <strong>Kea Hope for the Hopeless</strong>
+          <small>Foundation</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav__toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__links" id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="help us.html" aria-current="page">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="governance.html">Governance</a></li>
+
+          <li class="nav__cta">
+            <a class="btn btn--primary" href="#donate">
+              <i class="fa-solid fa-hand-holding-heart"></i> Donate
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <!-- Hero -->
+    <section class="hero hero--small">
+      <div class="container hero__inner reveal">
+        <div class="hero__copy">
+          <p class="kicker"><i class="fa-solid fa-handshake-angle"></i> Get involved</p>
+          <h1>Partner, volunteer, or donate.</h1>
+          <h2>Be part of real, measurable change.</h2>
+          <p class="lead">
+            Every action helps us protect children, empower youth, and strengthen families — with dignity, accountability,
+            and evidence-led reporting.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--ghost" href="#partner"><i class="fa-solid fa-handshake"></i> Partner with us</a>
+            <a class="btn btn--primary" href="#donate"><i class="fa-solid fa-hand-holding-heart"></i> Donate now</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__item"><i class="fa-solid fa-check"></i> Donor-ready reporting</div>
+            <div class="trust__item"><i class="fa-solid fa-check"></i> Community-first delivery</div>
+            <div class="trust__item"><i class="fa-solid fa-check"></i> Transparent governance</div>
+          </div>
+        </div>
+
+        <div class="hero__panel tilt" aria-hidden="true">
+          <div class="panel__badge"><i class="fa-solid fa-bolt"></i><span>Ways to help</span></div>
+          <div class="panel__grid">
+            <div class="mini"><p class="mini__label">Donate</p><p class="mini__value">Once-off / Monthly</p></div>
+            <div class="mini"><p class="mini__label">Volunteer</p><p class="mini__value">Skills • Time • Support</p></div>
+            <div class="mini"><p class="mini__label">Partner</p><p class="mini__value">CSR • Schools • NGOs</p></div>
+            <div class="mini"><p class="mini__label">Sponsor</p><p class="mini__value">Programmes • Events</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Choose your path -->
+    <section class="section" id="paths">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Choose your path</h2>
+          <p>Clarity matters — pick a way to help and take action immediately.</p>
+        </div>
+
+        <div class="cards reveal">
+          <article class="card tilt" id="partner">
+            <div class="program__icon"><i class="fa-solid fa-handshake"></i></div>
+            <h3>Partner with us</h3>
+            <p>
+              Collaborate on programmes, school interventions, outreach campaigns, and community services.
+              Perfect for CSR, CSI, and mission-aligned brands.
+            </p>
+            <a class="link" href="#partner-pack">View partner options <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="card tilt" id="donate">
+            <div class="program__icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h3>Donate</h3>
+            <p>
+              Support our mission through a secure contribution. You choose the amount —
+              once-off or monthly giving.
+            </p>
+
+            <!-- Donation buttons -->
+            <div class="donate-actions" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;">
+              <a class="btn btn--primary" href="http://127.0.0.1:5000/pay?amount=50&name=Donation">Donate R50</a>
+              <a class="btn btn--ghost" href="http://127.0.0.1:5000/pay?amount=100&name=Donation">Donate R100</a>
+              <a class="btn btn--ghost" href="http://127.0.0.1:5000/pay?amount=250&name=Donation">Donate R250</a>
+            </div>
+
+            <div class="card" style="margin-top:14px;padding:14px;">
+              <strong><i class="fa-solid fa-circle-info"></i> Deployment note:</strong>
+              <span style="opacity:.85;">
+                Replace <strong>127.0.0.1</strong> with your real domain when you go live (e.g. https://yourdomain.co.za).
+              </span>
+            </div>
+
+            <a class="link" href="#where-it-goes" style="margin-top:10px;display:inline-flex;">
+              See where your donation goes <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <article class="card tilt" id="volunteer">
+            <div class="program__icon"><i class="fa-solid fa-hand"></i></div>
+            <h3>Volunteer</h3>
+            <p>
+              Join as a volunteer and help us expand reach — in schools, communities, and events.
+              We welcome skills-based and community support volunteers.
+            </p>
+            <a class="link" href="#volunteer-roles">See volunteer roles <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: Where your support goes -->
+    <section class="section" id="where-it-goes">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Where your support goes</h2>
+          <p>Donors deserve clarity. Here is how your contribution creates real, measurable change.</p>
+        </div>
+
+        <div class="grid-2 reveal">
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-chalkboard-user"></i> Programme delivery</h3>
+            <p>Workshops, awareness campaigns, school sessions, and community education activities.</p>
+          </div>
+
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-people-roof"></i> Direct community support</h3>
+            <p>Support services, referrals, resources, and community-led interventions that reach families directly.</p>
+          </div>
+
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-shield-heart"></i> Safeguarding & protection</h3>
+            <p>Child protection practices, safe spaces, and responsible support pathways with community partners.</p>
+          </div>
+
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-clipboard-check"></i> Reporting & monitoring</h3>
+            <p>Tracking reach and outcomes so we can report back and improve what works.</p>
+          </div>
+        </div>
+
+        <div class="banner card tilt reveal" style="margin-top:18px;">
+          <img src="assets/img/support.jpg" alt="Community support and programme delivery" loading="lazy" />
+          <div class="banner__content">
+            <h3>Want to sponsor a full programme?</h3>
+            <p>
+              We can tailor sponsorship to your goals — from a school programme rollout to a province-wide campaign,
+              including partner-ready reporting and evidence documentation.
+            </p>
+            <a class="btn btn--primary" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Sponsor a programme</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: Partner Pack -->
+    <section class="section" id="partner-pack">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Partner options</h2>
+          <p>Designed for corporates, donors, schools, and NGOs — with clear benefits and reporting.</p>
+        </div>
+
+        <div class="cards reveal">
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-building"></i> Corporate CSR / CSI partner</h3>
+            <p>
+              Align your brand to child protection, youth empowerment and community upliftment.
+              Includes reporting, evidence, and programme summaries.
+            </p>
+          </article>
+
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-school"></i> School partner</h3>
+            <p>
+              Learner safety programmes, awareness sessions, bullying prevention, and family support engagement.
+              Scalable across districts.
+            </p>
+          </article>
+
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-handshake-angle"></i> NGO / Community partner</h3>
+            <p>
+              Co-delivery partnerships, referrals, shared resources and joint community activations for stronger impact.
+            </p>
+          </article>
+        </div>
+
+        <div class="grid-2 reveal" style="margin-top:18px;">
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-award"></i> Why partners choose us</h3>
+            <p>
+              Clear reporting, community trust, ethical delivery, and a measurable approach that supports accountability and scale.
+            </p>
+          </div>
+
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-file-shield"></i> What you receive</h3>
+            <p>
+              Partner-ready summaries: reach figures, activity logs, photos (with consent), and outcomes reporting.
+            </p>
+          </div>
+        </div>
+
+        <div class="center reveal" style="margin-top:14px;">
+          <a class="btn btn--primary" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Start a partnership</a>
+          <a class="btn btn--ghost" href="impact.html"><i class="fa-solid fa-chart-line"></i> View impact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: Volunteer roles -->
+    <section class="section" id="volunteer-roles">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Volunteer roles</h2>
+          <p>Whether you have time, skills, or energy — there is a place for you.</p>
+        </div>
+
+        <div class="cards reveal">
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-people-group"></i> Community support</h3>
+            <p>Helping during outreach days, events, registrations, and community mobilisation.</p>
+          </article>
+
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-chalkboard-user"></i> Skills-based volunteering</h3>
+            <p>Graphic design, admin support, marketing, photography, reporting, and document preparation.</p>
+          </article>
+
+          <article class="card tilt">
+            <h3><i class="fa-solid fa-bullhorn"></i> Awareness ambassadors</h3>
+            <p>Assist in campaigns, youth empowerment activities, and school awareness sessions.</p>
+          </article>
+        </div>
+
+        <div class="banner card tilt reveal" style="margin-top:18px;">
+          <img src="assets/img/volunteer.jpg" alt="Volunteers supporting the foundation" loading="lazy" />
+          <div class="banner__content">
+            <h3>Ready to volunteer?</h3>
+            <p>
+              Tell us your location, availability, and skills — and we’ll match you with a programme that needs your support.
+            </p>
+            <a class="btn btn--primary" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Volunteer sign-up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: Alternative giving -->
+    <section class="section" id="more-ways">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>More ways to give</h2>
+          <p>Not every contribution is money — in-kind support can change everything.</p>
+        </div>
+
+        <div class="grid-2 reveal">
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-boxes-stacked"></i> In-kind donations</h3>
+            <p>School supplies, hygiene packs, food parcels, printing, venue support, transport, and equipment.</p>
+          </div>
+
+          <div class="card tilt">
+            <h3><i class="fa-solid fa-calendar-check"></i> Sponsor an event</h3>
+            <p>Support a community awareness day, school drive, youth programme rollout, or training workshop.</p>
+          </div>
+        </div>
+
+        <div class="center reveal" style="margin-top:16px;">
+          <a class="btn btn--ghost" href="contact.html"><i class="fa-solid fa-paper-plane"></i> Discuss sponsorship</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Hope for the Hopeless Foundation • Committed to accountability & transparency.</p>
+      <a class="to-top" href="#top"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <div class="sticky-cta">
+    <a class="btn btn--primary" href="#donate">
+      <i class="fa-solid fa-hand-holding-heart"></i> Donate
+    </a>
+  </div>
+
+</body>
+</html>
